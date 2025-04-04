@@ -57,34 +57,6 @@ EMATPS1 = EMATPS +- 5%.
 
 
 
-
-
-Entonces ESP32 sensa entre 100 y 200 veces TPS1 y 2. (5-10ms)
-Ejemplo
-
-Instante A t=1s
-EMA está dada por los ultimos 100 valores, es decir, los sensados entre  0s=t=1s
-Instante B (10ms luego de A)
-EMA está dada por los ultimos 100 valores, es decir, los sensados entre  0,001s=t=1,001s
-
-Entendi bien?
-y si es asi, ue tasa de meustreo es la conveniente para ue el valor de EMA sea fiel, pero eliminada la variacion por ruidos?
-Podria determinar una buena EMA de filtro, para uso normal, y una EMA mas suavizada para modo ECO en conjunto con la limitacion de velocidad angular de STEPPER.
-
-Entonces, pasando en limpio
-ESP muestrea a  100Hz (100muestras/s) 
-Arma una EMA inicial con el promedio de esos valores, creando un valor estable, sin ruido, ni fluctuaciones.
-La siguiente EMA la calcula promediando EMA anterior con el nuevo valor.
-
-
-EMA nuevo = α⋅dato sensado nuevo +(1−α)⋅EMA anterior
-​α = coeficiente de suavizado
-mayor α= mas peso tiene el nuevo valor para variar la EMA
-
-Modo normal α=0,8
-Modo ECO    α=0,1
-
-
 EN MODO ECO VOY A TENER UNA EMA DE TPS1 PERO UE PUEDE UE NO SE CONDIGA CON LA EMA DE TPS2 YA UE LIMITO LA VELOCIDAD DEL STEPPER Y EN EL MEDIO PUEDO CAMBIAR VALOR DE PEDAL, HACIENDO UE EL STEPPER NO LLEGUE A X VALOR Y ALTERANDO EMA DE TPS2. UN CONTROL BASICO UE TENGO ES UE POST TPS1 = POS TPS2.
 eN ESE CASO, COMO RESUELVO? PUEDO DARLE TOLERANCIA EN MODO ECO A ESTA COMPARATIVA?
 Y SI HAGO UN SEGUNDO SENSADO CON FRECUENCIA LIMITADA A MISMA VELOCIDAD MAX DE STEPPER?
