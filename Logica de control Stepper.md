@@ -1,0 +1,102 @@
+Ejemplo:
+
+Datos del caso ejemplo:
+Variacion angular TPS1 (pedal) 0-70º
+Variacion angular TPS2 (mariposa) 0-80º
+
+Caso:
+Pedal pasa de 0v (min) a 5v (max) en 1s (se pisa pedal a fondo)
+ESP pone DIR en logico 1 (+3,3v) - Y manda 355 pasos 
+TPS2 sensa posicion maxima y devuelve 5v (max)
+
+Pedal se suelta hasta la mitad.
+TPS1 pasa de 5v a 2,5v
+ESP pone DIR en logico 0 (0v) - Y manda 178 pasos
+TPS2 sensa posicion media y devuelve 2,5v (max)
+
+
+Tarea de ESP
+
+Sensar posicion de TPS1 (PosTPS1)
+Sensar variacion de posicion de TPS1 (VarPosTPS1)
+Sensar posicion de TPS2 (PosTPS2)
+Sensar variacion de posicion de TPS2 (VarPosTPS2)
+Tasa de muestreo de valores TPS1 y TPS2 -> 100Hz (100 muestras/s) 1 MUESTRA CADA 10ms
+Calcula una EMA de cada uno y utiliza ese valor para operar
+
+(PosTPSx) ES UNA EMA SUAVIZADA.
+SE CALCULA:
+
+EMA nuevo = α⋅dato sensado nuevo +(1−α)⋅EMA anterior
+EMA INICIAL = ULTIMOS 100 VALORES
+​α = coeficiente de suavizado de respuesta a la variacion
+0<α<1, EN DONDE A MAYOR α, MAYOR ES LA SENSIBILIDAD DEL PEDAL
+Modo normal α=0,8
+Modo ECO    α=0,1 
+
+ESP VA A TENER REGISTRADA LA EUIVALENCIA EN CODIGO DE MIN/MAX DE TPS (UNO RESPECTO AL OTRO) Y TAMBIEN LA DE PASOS
+    TPS1  TPS2   PASOS
+MIN  0V    0V      0P
+MAX  5V    5V     355P
+1 PASO = +-0.014V
+
+CANTIDAD Y SENTIDO DEL PASO SE CALCULA => (PosTPS1(PosTPS1actual) - (PosTPS2prev) = x  
+(PosTPS1actual)[v] - (PosTPS2prev)[v] = x [v] donde x/0,014, nos da los pasos a mover y el signo de x el sentido
+
+ESTA CUENTA SE HACE TAMBIEN A LA MISMA TASA EUE EL MUESTREO
+EMATPS1 = EMATPS +- 2%.
+
+MODO ECO 
+SETEA VELOCIDAD MAX ENTRE PASOS DE 11ms/P O 90PASOS/S O 20º/S 
+SE SUPONE UE LA VELOCIDAD ANGULAR MAX PARA NO ACTIVAR LA BOMBA DE PIUE ES DE 20º/S
+α=0,1 para calculo de EMA
+SI EMA TPS1 = MAX +- 10% POR MAS DE 2s CONTINUOS, DESACTIVA MODO ECO.
+CALCULA UNA SEGUNDA EMA, PERO CON TASA DE MUESTREO DE 25HZ, PARA COMPARAT CONTINUAMENTE CON EMA TPS2
+EMATPS1 = EMATPS +- 5%.
+
+
+
+
+
+
+Entonces ESP32 sensa entre 100 y 200 veces TPS1 y 2. (5-10ms)
+Ejemplo
+
+Instante A t=1s
+EMA está dada por los ultimos 100 valores, es decir, los sensados entre  0s=t=1s
+Instante B (10ms luego de A)
+EMA está dada por los ultimos 100 valores, es decir, los sensados entre  0,001s=t=1,001s
+
+Entendi bien?
+y si es asi, ue tasa de meustreo es la conveniente para ue el valor de EMA sea fiel, pero eliminada la variacion por ruidos?
+Podria determinar una buena EMA de filtro, para uso normal, y una EMA mas suavizada para modo ECO en conjunto con la limitacion de velocidad angular de STEPPER.
+
+Entonces, pasando en limpio
+ESP muestrea a  100Hz (100muestras/s) 
+Arma una EMA inicial con el promedio de esos valores, creando un valor estable, sin ruido, ni fluctuaciones.
+La siguiente EMA la calcula promediando EMA anterior con el nuevo valor.
+
+
+EMA nuevo = α⋅dato sensado nuevo +(1−α)⋅EMA anterior
+​α = coeficiente de suavizado
+mayor α= mas peso tiene el nuevo valor para variar la EMA
+
+Modo normal α=0,8
+Modo ECO    α=0,1
+
+
+EN MODO ECO VOY A TENER UNA EMA DE TPS1 PERO UE PUEDE UE NO SE CONDIGA CON LA EMA DE TPS2 YA UE LIMITO LA VELOCIDAD DEL STEPPER Y EN EL MEDIO PUEDO CAMBIAR VALOR DE PEDAL, HACIENDO UE EL STEPPER NO LLEGUE A X VALOR Y ALTERANDO EMA DE TPS2. UN CONTROL BASICO UE TENGO ES UE POST TPS1 = POS TPS2.
+eN ESE CASO, COMO RESUELVO? PUEDO DARLE TOLERANCIA EN MODO ECO A ESTA COMPARATIVA?
+Y SI HAGO UN SEGUNDO SENSADO CON FRECUENCIA LIMITADA A MISMA VELOCIDAD MAX DE STEPPER?
+EJ
+
+PEDAL A FONDO TPS1
+0-5V EN 1s
+
+STEPPER Y TPS2 
+0-5V EN 4s
+
+SI HAGO UNA SEGUNDA EMA DE TPS1, PERO CON TASA DE MUESTREO DE 1/4 DE LA DE MODO NORMAL, ES DECIR 25,35HZ, PERO UE ESTA SOLO SE USE PARA LA COMPARACION DE CONTROL. 
+355/90= 3,94444s
+100/3,9444=25,35Hz
+A 25Hz, EL ERROR APROX ES DE 1,4%, LE PUEDO DECIR QUE TOLERE UN ERROR DEL 5% DE DIFERENCIA, QUE ANGULARMENTE REPRESENTARIA 3,5 Y 4º RESPECTIVAMENTE, LO CUAL ES DESPRECIABLE
