@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="Página-1" id="mWMyra1-hBtDh2re22eu">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gw21Ktum4oAkzvE9UjB--1" value="" style="group" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1080" y="5862" width="1290" height="1135" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--4" target="gw21Ktum4oAkzvE9UjB--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--4" target="gw21Ktum4oAkzvE9UjB--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--4" value="Si Z se aleja de W por mas de 5% algo esta retrasando su movimiento" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="590" y="164.9145299145299" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--7" target="gw21Ktum4oAkzvE9UjB--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--7" target="gw21Ktum4oAkzvE9UjB--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--7" value="Si controlamos la retraccion por motor, se puede desenergizar y mediante el resorte deberia de volver.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="320" y="412.28632478632477" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--9" target="gw21Ktum4oAkzvE9UjB--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--9" value="Si Z queda por encima de W, significa que el pedal baja, pero la mariposa no retrocede" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="320" y="295.39102564102564" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--11" target="gw21Ktum4oAkzvE9UjB--20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--11" value="Si Z queda por debajo de W, significa que el pedal sube, pero la mariposa no abre" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="870" y="295.39102564102564" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--12" value="si mariposa volvio pero W no, TPSM dañado" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="390" y="660.0461538461535" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--14" target="gw21Ktum4oAkzvE9UjB--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--14" value="Si al desenergizar el stepper, W baja (mariposa vuelve y TPSM lee esto), la obstruccion fue por el motor" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="151.69000000000005" y="543.2478632478633" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--17" target="gw21Ktum4oAkzvE9UjB--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--17" target="gw21Ktum4oAkzvE9UjB--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--17" value="Si al desenergizar el stepper, W no baja (mariposa no vuelve), hay que verificar estado de TPSM y si fisicamente la mariposa está trabada" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="491.69000000000005" y="543.635897435897" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--18" value="Si mariposa no volvio, mariposa obstruida" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="600" y="660.0461538461535" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--20" target="gw21Ktum4oAkzvE9UjB--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--20" value="Se debe controlar nuevamente con check inicial, los pareametros de [TPS_MIN] [TPS_MAX] y [PASOS_MAX]" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="870" y="402.5854700854701" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--22" target="gw21Ktum4oAkzvE9UjB--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--22" value="Se controlan contra sus&amp;nbsp; [TPS_MIN_REF] [TPS_MAX_REF] y [PASOS_MAX_REF]," style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="870" y="509.29487179487177" width="180" height="87.3076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--23" value="&lt;font style=&quot;font-size: 37px;&quot;&gt;DIAGNOSTICO ANTE FALLA DE SEGUIMIENTO DE Z A W&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="40" y="48.504273504273506" width="1170" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--25" target="gw21Ktum4oAkzvE9UjB--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--25" value="Se controlan contra sus&amp;nbsp; [TPS_MIN] =[TPS_MIN_REF]&amp;nbsp;&lt;br&gt;Nuestro TPSM al menos mide en min" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="870" y="635.4059829059829" width="180" height="87.3076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--27" target="gw21Ktum4oAkzvE9UjB--32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--27" value="Si se presiona PUL_MAX_AR] y,&lt;br&gt;[PASOS_MAX]=[PASOS_MAX_REF]&lt;br&gt;entonces Stepper OK" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="720" y="887.6282051282051" width="200" height="87.3076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--30" target="gw21Ktum4oAkzvE9UjB--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--30" target="gw21Ktum4oAkzvE9UjB--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--30" value="Posteriormente el motor va a mover hasta llegar a max y presionar el pul_max_mar" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="870" y="761.517094017094" width="180" height="87.3076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--31" value="Se deber verificar TPSM al cambiar el motor" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="1020" y="1013.2542735042736" width="180" height="87.3076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--32" value="Si para&amp;nbsp;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Se%20controlan%20contra%20sus%26amp%3Bnbsp%3B%20%5BTPS_MIN_REF%5D%20%5BTPS_MAX_REF%5D%20y%20%5BPASOS_MAX_REF%5D%2C%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeColor%3D%23788AA3%3BfontColor%3D%2346495D%3BfillColor%3D%23B2C9AB%3Bmovable%3D1%3Bresizable%3D1%3Brotatable%3D1%3Bdeletable%3D1%3Beditable%3D1%3Blocked%3D0%3Bconnectable%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22970%22%20y%3D%226660%22%20width%3D%22180%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;[PASOS_MAX], [TPSM_MAX] fuera de tolerancia. TPSM dañado" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="730" y="1013.2542735042736" width="180" height="87.3076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--34" target="gw21Ktum4oAkzvE9UjB--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--34" value="Si stepper nunca llega a presionar PUL_MAX_MAR,&amp;nbsp;&lt;br&gt;Stepper dañado" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="1010" y="887.6282051282051" width="200" height="87.3076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--37" target="gw21Ktum4oAkzvE9UjB--41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--37" target="gw21Ktum4oAkzvE9UjB--40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--37" value="Hay que verificar si es problema de Stepper, o de Driver" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="151.69000000000005" y="660.0461538461535" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--40" target="gw21Ktum4oAkzvE9UjB--43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gw21Ktum4oAkzvE9UjB--1" source="gw21Ktum4oAkzvE9UjB--40" target="gw21Ktum4oAkzvE9UjB--42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--40" value="Si se daño Stepper puede darse 2 cosas" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="270" y="791.2017094017098" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--41" value="Si se dañó el driver puede dejar una salida que no responda a control" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="40" y="791.2017094017098" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--42" value="Si se dañaron bobinas Stepper no mueve, o lo hace parcialmente (dependiendo de cuales bobinas se hayn dañado)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="390" y="921.5811965811965" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--43" value="Si se daño mecanismo,&lt;br&gt;Stepper puede quedarse trabado, sin dar pasos" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry x="170" y="921.5811965811965" width="180" height="77.6068376068376" as="geometry" />
+        </mxCell>
+        <mxCell id="gw21Ktum4oAkzvE9UjB--44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="gw21Ktum4oAkzvE9UjB--1">
+          <mxGeometry width="1290" height="1135" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
